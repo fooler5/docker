@@ -1,5 +1,5 @@
 # AlpineLinux open jre 8
-FROM cywx/alpinessh
+FROM zhulei-cywx/alpine-ssh
 
 RUN apk --update add curl bash openjdk8-jre-base && \
       rm -rf /var/cache/apk/*
