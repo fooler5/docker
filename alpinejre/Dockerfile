@@ -1,5 +1,5 @@
 # AlpineLinux open jre 8
-FROM registry.cn-hangzhou.aliyuncs.com/zhulei-cywx/alpine-jre8
+FROM  registry.cn-hangzhou.aliyuncs.com/zhulei-cywx/alpine-ssh
 
 RUN apk --update add curl bash openjdk8-jre-base && \
       rm -rf /var/cache/apk/*
